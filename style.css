@@ -14,7 +14,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+figure {
   margin: 0;
 }
 
@@ -33,6 +34,8 @@ a:hover {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* 横幅と左右の余白 */
@@ -109,4 +112,10 @@ img {
   font-size: 18px;
   text-align: center;
   text-shadow: 0 0 6px #00000052;
+}
+
+/* 画像とテキスト */
+.imgtext {
+  padding: clamp(90px, 9vw, 120px) 0;
+  background-color: #ffffff;
 }
